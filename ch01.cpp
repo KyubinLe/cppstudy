@@ -69,3 +69,25 @@ using namespace std;
 사용자로부터 이름 전화번호 문자열 형태로 입력받아 그대로 출력
 단수를 하나 받아 해당 구구단 출력*/
 
+// int sum(int a, int b) { retrun a + b; }
+// int sum(int a, int b int c) { return a + b + c; }
+// double sum(double a, double b) { return a + b; }
+// int main(){
+//     cout << "sum(1,2) : " << sum(1,2) << endl;
+//     cout << "sum(1,2,3)" << sum(1,2,3) << endl;
+//     cout << "sum(1.2,2.3) : " sum(1.2,2.3) << endl;
+// }
+
+void swap(int* x, int* y)
+{
+    int tmp = *x;
+    *x = *y;
+    *y = tmp;
+}
+int main()
+{
+    int n1 = 10, n2 = 20;
+    cout << "swap 사용 전 n1 n2 : " << n1 << " " << n2 << endl;
+    swap(&n1, &n2);
+    cout << "swap 사용 후 n1 n2 : " << n1 << " " << n2 << endl;
+}
