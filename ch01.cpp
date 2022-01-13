@@ -38,6 +38,7 @@ int main()
     if(num1 < num2) cout << "가장 큰 수 : "<< num2;
     else cout << "가장 큰 수 : " << num1;
 
+<<<<<<< HEAD
     int n1,n2,n3;
     cout << endl << "입력(정수 3개) : ";
     cin >> n1 >> n2 >> n3;
