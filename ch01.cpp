@@ -78,6 +78,7 @@ using namespace std;
 //     cout << "sum(1.2,2.3) : " sum(1.2,2.3) << endl;
 // }
 
+<<<<<<< HEAD
 // void swap(int* x, int* y)
 // {
 //     int tmp = *x;
@@ -125,3 +126,18 @@ using namespace std;
 //     cout << "FUNC(x) = " << Func2(x + 3) << endl;
 // }
 
+=======
+void swap(int* x, int* y)
+{
+    int tmp = *x;
+    *x = *y;
+    *y = tmp;
+}
+int main()
+{
+    int n1 = 10, n2 = 20;
+    cout << "swap 사용 전 n1 n2 : " << n1 << " " << n2 << endl;
+    swap(&n1, &n2);
+    cout << "swap 사용 후 n1 n2 : " << n1 << " " << n2 << endl;
+}
+>>>>>>> 75116c74271e84e5f8d7728c37e82bb0b9892d70
