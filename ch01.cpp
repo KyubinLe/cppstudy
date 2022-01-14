@@ -140,4 +140,3 @@ int main()
     swap(&n1, &n2);
     cout << "swap 사용 후 n1 n2 : " << n1 << " " << n2 << endl;
 }
->>>>>>> 75116c74271e84e5f8d7728c37e82bb0b9892d70
