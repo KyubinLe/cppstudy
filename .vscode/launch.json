@@ -11,7 +11,7 @@
       "stopAtEntry": true,
       "cwd": "/Users/kyubinlee/cpro/cpp",
       "environment": [],
-      "program": "/Users/kyubinlee/cpro/c++beg/build/Debug/outDebug",
+      "program": "/Users/kyubinlee/cpro/cpp/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "externalConsole": true
