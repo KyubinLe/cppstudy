@@ -60,17 +60,31 @@ using namespace std;
 class people
 {
 public:
-    string name, id, major;
+    string name[3], id[3], major[3];
 
 public:
-    void addpeople(string a, string b, string c);
+    void addpeople();
 };
 int main()
 {
-
+    people pe1;
+    pe1.addpeople();
+    for (int i = 0; i < 3; i++)
+    {
+        cout << pe1.name[i];
+    }
     return 0;
 }
 
-void people::addpeople(){
-    
+void people::addpeople()
+{
+    for (int i = 0; i < 3; i++)
+    {
+        cout << "이름 : ";
+        getline(cin, name[i], '\n');
+        cout << "학번 : ";
+        getline(cin, id[i], '\n');
+        cout << "전공 : ";
+        getline(cin, major[i], '\n');
+    }
 }
